@@ -34,8 +34,7 @@
               "RelativeToolTip": "Calculadora\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-12-11T09:06:09.24Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -49,7 +48,7 @@
               "RelativeDocumentMoniker": "Calculadora\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Aluno\\source\\repos\\CalculadoraWPF\\Calculadora\\MainWindow.xaml.cs",
               "RelativeToolTip": "Calculadora\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAwwDMAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAcwFQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T09:30:10.01Z",
               "EditorCaption": ""
@@ -63,8 +62,7 @@
               "ToolTip": "C:\\Users\\Aluno\\source\\repos\\CalculadoraWPF\\Calculadora\\MainWindow.xaml",
               "RelativeToolTip": "Calculadora\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-11T09:06:13.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T09:06:13.945Z"
             }
           ]
         }
