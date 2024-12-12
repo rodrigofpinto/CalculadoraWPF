@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Diagnostics;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -94,6 +95,105 @@ namespace Calculadora
             num1.Clear();
             num2.Clear();
             txtResultado.Clear();
+        }
+        //Calculadora
+        private void btnOpen_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Process.Start("calc.exe");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao abrir a calculadora: " + ex.Message);
+            }
+        }
+
+        private void btnOpenExplorador_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Process.Start("explorer.exe");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao abrir a calculadora: " + ex.Message);
+            }
+        }
+
+        private void btnOpenPaint_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Process.Start("mspaint.exe");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao abrir a calculadora: " + ex.Message);
+            }
+        }
+
+        private void btnOpenGestorDispositivos_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Process.Start("devmgmt.msc");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao abrir a calculadora: " + ex.Message);
+            }
+        }
+
+        private void btnOpenServicos_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Process.Start("services.msc");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao abrir a calculadora: " + ex.Message);
+            }
+        }
+
+        private void btnOpenPainelControlo_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Process.Start("control.exe");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao abrir a calculadora: " + ex.Message);
+            }
+        }
+
+        private void btnOpenChrome_Click(object sender, RoutedEventArgs e)
+        {
+
+            try
+            {
+                Process.Start("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao abrir a calculadora: " + ex.Message);
+            }
+        }
+
+        private void btnProgressUp_Click(object sender, RoutedEventArgs e)
+        {
+            PB.Value += 10;
+            if (PB.Value == 100)
+            { PB.Value = 0; }
+        }
+
+        private void btnProgressDrown_Click(object sender, RoutedEventArgs e)
+        {
+            PB.Value -= 10;
+            if (PB.Value == 100)
+            { PB.Value = 0; }
         }
     }
 }

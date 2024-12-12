@@ -21,16 +21,16 @@
         <Button x:Name="btnDividir" Grid.Column="1" Content="/" HorizontalAlignment="Left" Margin="196,201,0,0" VerticalAlignment="Top" Height="35" Width="33" RenderTransformOrigin="3.393,0.525" Click="btnDividir_Click"/>
         <TextBox x:Name="txtResultado" Grid.Column="1" HorizontalAlignment="Left" Margin="59,254,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="177" Height="52"/>
         <Label Grid.Column="1" Content="GESTOR DE APLICAÇÕES" HorizontalAlignment="Left" Margin="435,28,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <Button Grid.Column="1" Content="Calculadora" HorizontalAlignment="Left" Margin="388,91,0,0" VerticalAlignment="Top" Height="26" Width="117"/>
-        <Button Grid.Column="1" Content="Explorador" HorizontalAlignment="Left" Margin="537,91,0,0" VerticalAlignment="Top" Height="26" Width="117"/>
-        <Button Grid.Column="1" Content="Paint" HorizontalAlignment="Left" Margin="388,142,0,0" VerticalAlignment="Top" Height="26" Width="117"/>
-        <Button Grid.Column="1" Content="Gestor de dispositivos" HorizontalAlignment="Left" Margin="537,142,0,0" VerticalAlignment="Top" Height="26" Width="117"/>
-        <Button Grid.Column="1" Content="Serviços" HorizontalAlignment="Left" Margin="388,194,0,0" VerticalAlignment="Top" Height="26" Width="117"/>
-        <Button Grid.Column="1" Content="Paínel de Controlo" HorizontalAlignment="Left" Margin="537,194,0,0" VerticalAlignment="Top" Height="26" Width="117"/>
-        <Button Grid.Column="1" Content="Chrome" HorizontalAlignment="Left" Margin="388,247,0,0" VerticalAlignment="Top" Height="26" Width="117"/>
-        <Button Grid.Column="1" Content="Process bar +" HorizontalAlignment="Left" Margin="388,291,0,0" VerticalAlignment="Top" Height="26" Width="117" Background="Lime"/>
-        <Button Grid.Column="1" Content="Process bar -" HorizontalAlignment="Left" Margin="388,332,0,0" VerticalAlignment="Top" Height="26" Width="117" Background="Red"/>
-        <ProgressBar Grid.Column="1" HorizontalAlignment="Left" Height="26" Margin="540,313,0,0" VerticalAlignment="Top" Width="126"/>
+        <Button x:Name="btnOpenCalculadora" Grid.Column="1" Content="Calculadora" HorizontalAlignment="Left" Margin="388,91,0,0" VerticalAlignment="Top" Height="26" Width="117" Click="btnOpen_Click"/>
+        <Button x:Name="btnOpenExplorador" Grid.Column="1" Content="Explorador" HorizontalAlignment="Left" Margin="537,91,0,0" VerticalAlignment="Top" Height="26" Width="117" Click="btnOpenExplorador_Click"/>
+        <Button x:Name="btnOpenPaint" Grid.Column="1" Content="Paint" HorizontalAlignment="Left" Margin="388,142,0,0" VerticalAlignment="Top" Height="26" Width="117" Click="btnOpenPaint_Click"/>
+        <Button x:Name="btnOpenGestorDispositivos" Grid.Column="1" Content="Gestor de dispositivos" HorizontalAlignment="Left" Margin="537,142,0,0" VerticalAlignment="Top" Height="26" Width="117" Click="btnOpenGestorDispositivos_Click"/>
+        <Button x:Name="btnOpenServicos" Grid.Column="1" Content="Serviços" HorizontalAlignment="Left" Margin="388,194,0,0" VerticalAlignment="Top" Height="26" Width="117" Click="btnOpenServicos_Click"/>
+        <Button x:Name="btnOpenPainelControlo" Grid.Column="1" Content="Paínel de Controlo" HorizontalAlignment="Left" Margin="537,194,0,0" VerticalAlignment="Top" Height="26" Width="117" Click="btnOpenPainelControlo_Click"/>
+        <Button x:Name="btnOpenChrome" Grid.Column="1" Content="Chrome" HorizontalAlignment="Left" Margin="388,247,0,0" VerticalAlignment="Top" Height="26" Width="117" Click="btnOpenChrome_Click"/>
+        <Button x:Name="btnProgressUp" Grid.Column="1" Content="Process bar +" HorizontalAlignment="Left" Margin="388,291,0,0" VerticalAlignment="Top" Height="26" Width="117" Background="Lime" Click="btnProgressUp_Click"/>
+        <Button x:Name="btnProgressDrown" Grid.Column="1" Content="Process bar -" HorizontalAlignment="Left" Margin="388,332,0,0" VerticalAlignment="Top" Height="26" Width="117" Background="Red" Click="btnProgressDrown_Click"/>
+        <ProgressBar x:Name="PB" Grid.Column="1" HorizontalAlignment="Left" Height="26" Margin="540,313,0,0" VerticalAlignment="Top" Width="126"/>
         <Label Grid.Column="1" Content="GESTOR DE APLICAÇÕES" HorizontalAlignment="Left" Margin="45,28,0,0" VerticalAlignment="Top" FontSize="18"/>
         <Button x:Name="btnLimpar" Grid.Column="1" Content="Limpar" HorizontalAlignment="Left" Margin="59,326,0,0" VerticalAlignment="Top" Height="32" Width="108" Click="btnLimpar_Click"/>
 
